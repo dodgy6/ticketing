@@ -1,0 +1,5 @@
+
+
+// Open NATS ports do publisher and listener apps
+kubectl port-forward <NAT POD NAME>  4222:4222
+kubectl port-forward <NAT POD NAME>  8222:8222
